@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#ff6b9a" />
+    <title>魏雨娜，520快乐</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <canvas id="heartCanvas" aria-hidden="true"></canvas>
+
+    <main class="app" aria-label="叶子箫给魏雨娜的520惊喜">
+      <section class="page page-cover is-show" data-page="cover">
+        <div class="cover-card">
+          <div class="photo-frame">
+            <img src="./assert/微信图片_20260518124248_71305_221.jpg" alt="叶子箫和魏雨娜的520插画" />
+          </div>
+          <p class="date">2026.05.20</p>
+          <h1>🌧️魏雨娜🌧️</h1>
+          <p class="subtitle">有一封来自🍃的小情书</p>
+          <button class="primary-btn" type="button" data-next="letter">打开</button>
+        </div>
+      </section>
+
+      <section class="page page-letter" data-page="letter">
+        <div class="letter-shell">
+          <div class="stamp">520</div>
+          <p class="to">To 魏雨娜</p>
+          <h2>我想把今天送给你</h2>
+          <p class="typewriter" id="typewriter"></p>
+          <button class="primary-btn" type="button" data-next="album">继续看</button>
+        </div>
+      </section>
+
+      <section class="page page-album" data-page="album">
+        <div class="album-card">
+          <div class="wide-photo">
+            <img src="./assert/微信图片_20260518124132_71304_221.jpg" alt="叶子箫和魏雨娜的夜晚插画" />
+          </div>
+          <h2>叶子箫 ♥ 魏雨娜</h2>
+          <p>
+            我喜欢和你在一起的每一个瞬间。以后不止520，每一天我都想认真爱你，
+            陪你开心，陪你发光，也陪你把平凡日子过成我们的小浪漫。
+          </p>
+          <button class="primary-btn" type="button" data-next="cover">再看一遍</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
